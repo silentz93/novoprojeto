@@ -1,5 +1,5 @@
 let listaNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 
@@ -11,11 +11,11 @@ function exibirTexto(tag, texto) {
 
 function textoInicial() {
 exibirTexto('h1', 'Jogo do Número Secreto');
-exibirTexto('p', 'Escolha um número entre 1 e 10');
+exibirTexto('p', 'Escolha um número entre 1 e 100');
 }
-
+// teste teste
 textoInicial();
-
+// teste teste dsadasdsadas
 function verificarChute() {
     let chute = document.querySelector("input").value;
     if (chute == numeroSecreto) {
